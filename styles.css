@@ -1,0 +1,47 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+section {
+  border: 1px solid black;
+}
+
+nav {
+  border: 1px solid black;
+  position: fixed;
+  left: 0;
+  padding: 20px;
+  height: 100%;
+}
+nav header {
+  margin-bottom: 10px;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.main-section {
+  margin-left: 111px;
+  padding: 10px;
+}
+
+header {
+  font-size: 20px;
+  color: brown;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    font-size: 18px;
+  }
+}
